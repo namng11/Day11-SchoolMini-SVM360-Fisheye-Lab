@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,25,medium,Thường gặp
+front,hard,25,high,Ngược sáng
+rear,normal,25,low,Dễ xử lý
+rear,hard,25,high,Đèn pha
+left,normal,25,low,Bình thường
+left,hard,25,medium,Khuất góc
+right,normal,25,low,Sát lề
+right,hard,25,high,Nhiều xe

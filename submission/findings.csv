@@ -1,1 +1,32 @@
 round,slice,frame,object_ref,cell,what,why,severity,owner,rule_id,evidence,action,rules_version,note
+calib,C0,adasind_019560.jpg,L2,na,SPURIOUS,,,,,,,,
+calib,C0,adasind_019560.jpg,L3,na,SPURIOUS,,,,,,,,
+calib,C0,adasind_019560.jpg,L9,na,SPURIOUS,,,,,,,,
+r2_qa,B4-mid,adasind_249480.jpg,L2,L_only,BOX_GEOMETRY,,P1,annotator,R02,Box chưa bám sát lề phải,,,
+r2_qa,B4-mid,adasind_261480.jpg,L1,L_only,ATTRIBUTE,,P2,annotator,R08,Thiếu truncated,,,
+r2_qa,B4-mid,adasind_265065.jpg,L3,L_only,WRONG_CLASS,,P1,annotator,R04,Gán nhầm thành Car,,,
+r1_craft,B4-mid,adasind_249480.jpg,L2,na,IGNORE_SCOPE,E1_annotator_error,P1,annotator,,,rework,,Vẽ sai hoặc vẽ thừa
+r1_craft,B4-mid,adasind_261480.jpg,L4,na,SPURIOUS,E1_annotator_error,P1,annotator,,,rework,,Vẽ sai hoặc vẽ thừa
+r1_craft,B4-mid,adasind_265065.jpg,L5,na,IGNORE_SCOPE,E1_annotator_error,P1,annotator,,,rework,,Vẽ sai hoặc vẽ thừa
+r1_craft,B4-mid,adasind_265065.jpg,L4,na,SPURIOUS,E1_annotator_error,P1,annotator,,,rework,,Vẽ sai hoặc vẽ thừa
+r1_craft,B4-mid,adasind_265065.jpg,R5,na,MISSING,E1_annotator_error,P1,annotator,,,rework,,Vẽ sai hoặc vẽ thừa
+r1_craft,B4-mid,adasind_265065.jpg,R7,na,MISSING,E1_annotator_error,P1,annotator,,,rework,,Vẽ sai hoặc vẽ thừa
+r3_diag,B4-mid,adasind_249480.jpg,M2,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,escalate,,Model dự đoán sai
+r3_diag,B4-mid,adasind_249480.jpg,M4,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,escalate,,Model dự đoán sai
+r3_diag,B4-mid,adasind_249480.jpg,M6,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,escalate,,Model dự đoán sai
+r3_diag,B4-mid,adasind_261480.jpg,L6+R6,LR_noM,MISSING,E5_unresolved,P2,qa,,,escalate,,
+r3_diag,B4-mid,adasind_261480.jpg,L7+R4,LR_noM,MISSING,E5_unresolved,P2,qa,,,escalate,,
+r3_diag,B4-mid,adasind_261480.jpg,L1+R5,LR_noM,MISSING,E5_unresolved,P2,qa,,,escalate,,
+r3_diag,B4-mid,adasind_261480.jpg,L4,L_only,SPURIOUS,E1_annotator_error,P1,annotator,,,rework,,Vẽ sai hoặc vẽ thừa
+r3_diag,B4-mid,adasind_261480.jpg,M2,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,escalate,,Model dự đoán sai
+r3_diag,B4-mid,adasind_261480.jpg,M5,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,escalate,,Model dự đoán sai
+r3_diag,B4-mid,adasind_261480.jpg,M6,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,escalate,,Model dự đoán sai
+r3_diag,B4-mid,adasind_261480.jpg,M8,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,escalate,,Model dự đoán sai
+r3_diag,B4-mid,adasind_261480.jpg,M10,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,escalate,,Model dự đoán sai
+r3_diag,B4-mid,adasind_261480.jpg,M11,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,escalate,,Model dự đoán sai
+r3_diag,B4-mid,adasind_261480.jpg,M12,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,escalate,,Model dự đoán sai
+r3_diag,B4-mid,adasind_261480.jpg,M13,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,escalate,,Model dự đoán sai
+r3_diag,B4-mid,adasind_265065.jpg,L4,L_only,SPURIOUS,E1_annotator_error,P1,annotator,,,rework,,Vẽ sai hoặc vẽ thừa
+r3_diag,B4-mid,adasind_265065.jpg,R5+M7,RM_noL,MISSING,E1_annotator_error,P1,annotator,,,rework,,Bỏ sót box
+r3_diag,B4-mid,adasind_265065.jpg,R7,R_only,MISSING,E1_annotator_error,P1,annotator,,,rework,,Bỏ sót box
+r3_diag,B4-mid,adasind_265065.jpg,M8,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,escalate,,Model dự đoán sai

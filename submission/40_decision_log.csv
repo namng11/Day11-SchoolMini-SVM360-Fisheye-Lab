@@ -1,1 +1,5 @@
-id,date,question,decision,rationale,status
+id,frame,object_ref,issue_type,decision,status,rationale,owner
+1,adasind_261480.jpg,L1,missing_attribute,fix,resolved,Cần thêm cờ truncated,annotator
+2,adasind_249480.jpg,L2,geometry,fix,resolved,Box kéo sai,annotator
+3,adasind_265065.jpg,L3,class_error,fix,resolved,Sửa Car thành ThreeWheeler,annotator
+4,adasind_265065.jpg,M7,missing_box,escalate,escalated,Model bỏ sót xe ở xa,ai_team
